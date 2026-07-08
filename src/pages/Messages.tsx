@@ -24,12 +24,14 @@ export default function Messages() {
     if (user) {
       loadMatches();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
   useEffect(() => {
     if (selectedMatch) {
       loadMessages(selectedMatch.id);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedMatch]);
 
   useEffect(() => {
