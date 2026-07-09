@@ -1,5 +1,6 @@
 import { Heart, Mail, Code, Palette, Server } from 'lucide-react';
 import { motion } from 'framer-motion';
+import myPhoto from './20240923_071243.jpg';
 import './Team.css';
 
 const TEAM_MEMBERS = [
@@ -19,10 +20,10 @@ const TEAM_MEMBERS = [
   {
     id: 2,
     name: 'Jordan Chen',
-    role: 'UI/UX Designer',
-    bio: 'Design enthusiast focused on creating intuitive and beautiful interfaces. Believes in the power of thoughtful design.',
-    avatar: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400',
-    skills: ['Figma', 'UI Design', 'Prototyping', 'User Research'],
+    role: 'Developer & Designer',
+    bio: 'KKCF Alumni and America on Tech Alumni passionate about using tech to create meaningful connections. Headed to Georgia Southern University in the fall to study Civil Engineering and Sustainability Science.',
+    avatar: myPhoto,
+    skills: ['KKCF Alumni', 'America on Tech Alumni', 'Civil Engineering', 'Sustainability Science'],
     icon: Palette,
     social: {
       github: 'https://github.com',
