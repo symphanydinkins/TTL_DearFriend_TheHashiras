@@ -1,6 +1,7 @@
 import { Heart, Mail, Code, Palette, Server } from 'lucide-react';
 import { motion } from 'framer-motion';
 import myPhoto from './20240923_071243.jpg';
+import myPhoto from './IMG_2950.jpg';
 import './Team.css';
 
 const TEAM_MEMBERS = [
