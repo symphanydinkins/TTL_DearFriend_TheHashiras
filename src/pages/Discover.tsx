@@ -63,7 +63,6 @@ export default function Discover() {
 
   useEffect(() => {
     loadProfiles();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
   async function loadProfiles() {

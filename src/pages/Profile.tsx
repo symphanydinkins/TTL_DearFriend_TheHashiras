@@ -39,7 +39,6 @@ export default function ProfilePage() {
       setEditHobbies(profile.hobbies || []);
       loadPosts();
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [profile]);
 
   async function loadPosts() {
