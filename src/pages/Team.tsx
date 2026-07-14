@@ -9,7 +9,7 @@ const TEAM_MEMBERS = [
     name: 'Symphany',
     role: 'Aspiring Cloud Security Engineer',
     bio: "Hi! My name is Symphany. I'm currently a senior in high school and aspire to become a Cloud Security Engineer. I've taken multiple Cybersecurity classes and plan to take more in the fall at Atlanta Technical College. I'm participating in many programs to grow my knowledge for the future. So far, I've been working on many projects with The Knowledge House (TKH), such as building my own web page using CSS and HTML. I enjoy playing electric guitar, flute, and sports.",
-    avatar: 'https://images.pexels.com/photos/5439381/pexels-photo-5439381.jpeg?auto=compress&cs=tinysrgb&w=400',
+    avatar: '/symphany-avatar.jpg',
     skills: ['Cybersecurity', 'Cloud Security', 'HTML & CSS', 'The Knowledge House (TKH)'],
     icon: Code,
     social: {
@@ -35,7 +35,7 @@ const TEAM_MEMBERS = [
     name: 'Cayly Knibbs',
     role: 'Aspiring Aerospace Engineer',
     bio: "Hello! My Name is Cayly Knibbs! I am a 16 year old junior in high school and my goal is to become an Aerospace engineer! My hobbies are playing into a few orchestras as a violinist, fashion, Kickboxing, Photography and Coding/Robotics. As of now, I have been working outside of school to create/design a device that can monitor the electromagnetic waves from plants in order to diagnose what they may need. It's nice to meet you!",
-    avatar: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=400',
+    avatar: '/cayly-avatar.jpg',
     skills: ['Aerospace Engineering', 'Violin & Orchestra', 'Kickboxing', 'Robotics & Coding'],
     icon: Rocket,
     social: {
