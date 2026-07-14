@@ -7,6 +7,7 @@ import Messages from './pages/Messages';
 import Profile from './pages/Profile';
 import Feed from './pages/Feed';
 import Team from './pages/Team';
+import TeamMemberDetail from './pages/TeamMemberDetail';
 import './App.css';
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
@@ -97,6 +98,10 @@ function AppRoutes() {
       <Route
         path="/team"
         element={<AppLayout><Team /></AppLayout>}
+      />
+      <Route
+        path="/team/:id"
+        element={<AppLayout><TeamMemberDetail /></AppLayout>}
       />
     </Routes>
   );

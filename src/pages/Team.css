@@ -73,6 +73,27 @@
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
 
+.team-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.view-profile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #4ecdc4;
+  transition: gap 0.2s ease;
+}
+
+.team-card:hover .view-profile-link {
+  gap: 0.625rem;
+}
+
 .team-card-header {
   height: 60px;
   background: linear-gradient(135deg, #4ecdc4 0%, #44b3ab 100%);
@@ -218,5 +239,9 @@
   .team-card {
     width: 100%;
     max-width: 320px;
+  }
+
+  .team-intro p {
+    font-size: 0.9rem;
   }
 }
