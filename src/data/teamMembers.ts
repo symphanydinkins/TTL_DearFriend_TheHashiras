@@ -13,6 +13,7 @@ export interface TeamMember {
   interests: string[];
   education: string[];
   icon: LucideIcon;
+  cardColor?: string;
   social: {
     github: string;
     linkedin: string;
@@ -63,6 +64,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     interests: ['Violin & Orchestra', 'Fashion', 'Kickboxing', 'Photography', 'Robotics'],
     education: ['Junior in High School', 'Self-taught Robotics & Coding'],
     icon: Rocket,
+    cardColor: '#f0e6ff',
     social: {
       github: 'https://github.com',
       linkedin: 'https://linkedin.com'

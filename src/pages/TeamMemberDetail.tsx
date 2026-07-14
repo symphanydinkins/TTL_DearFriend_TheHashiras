@@ -32,6 +32,7 @@ export default function TeamMemberDetail() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         className="member-detail-card"
+        style={member.cardColor ? { background: member.cardColor } : undefined}
       >
         <div className="member-detail-header" />
 
