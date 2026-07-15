@@ -28,7 +28,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Aspiring Cloud Security Engineer',
     bio: "Hi! My name is Symphany. I'm an upcoming senior in high school and aspire to become a Cloud Security Engineer. I'm participating in many programs to grow my knowledge for the future.",
     longBio: "Hi! My name is Symphany. I'm an upcoming senior in high school and aspire to become a Cloud Security Engineer. I'm participating in many programs to grow my knowledge for the future. So far, I've been working on many projects with The Knowledge House (TKH), such as building my own web page using CSS and HTML. I enjoy playing electric guitar, flute, and playing sports.",
-    avatar: '/symphany-avatar.jpg',
+    avatar: '/IMG_2950.jpg',
     skills: ['Cybersecurity', 'Cloud Security', 'HTML & CSS', 'The Knowledge House (TKH)'],
     interests: ['Electric Guitar', 'Flute', 'Sports'],
     education: ['Upcoming Senior in High School', 'Atlanta Technical College (Fall 2026)'],
