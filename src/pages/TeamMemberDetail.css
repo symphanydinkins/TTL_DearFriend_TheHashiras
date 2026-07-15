@@ -165,6 +165,11 @@
   color: white;
 }
 
+.member-detail-social .tiktok-icon {
+  width: 20px;
+  height: 20px;
+}
+
 .member-not-found {
   text-align: center;
   padding: 4rem 2rem;

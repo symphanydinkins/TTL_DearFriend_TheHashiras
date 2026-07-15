@@ -4,6 +4,12 @@ import { motion } from 'framer-motion';
 import { getMemberById } from '../data/teamMembers';
 import './TeamMemberDetail.css';
 
+const TikTokIcon = ({ className }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.52 1.22 2.89 2.89 0 0 1 2.31-4.29V9.55a6.33 6.33 0 0 0-5.61 6.33 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.63a8.16 8.16 0 0 0 4.78 1.53V6.75a4.83 4.83 0 0 1-2.42-.06z"/>
+  </svg>
+);
+
 export default function TeamMemberDetail() {
   const { id } = useParams<{ id: string }>();
   const member = getMemberById(Number(id));
@@ -85,6 +91,11 @@ export default function TeamMemberDetail() {
             </a>
             <a href={member.social.linkedin} target="_blank" rel="noopener noreferrer" className="social-link" title="LinkedIn">
               <Palette size={20} />
+            {member.social.tiktok && (
+              <a href={member.social.tiktok} target="_blank" rel="noopener noreferrer" className="social-link" title="TikTok @symkaro">
+                <TikTokIcon className="tiktok-icon" />
+              </a>
+            )}
             </a>
             <a href="mailto:team@dearfriend.app" className="social-link" title="Email">
               <Mail size={20} />

@@ -16,6 +16,7 @@ export interface TeamMember {
   cardColor?: string;
   social: {
     github: string;
+    tiktok?: string;
     linkedin: string;
   };
 }
@@ -25,16 +26,17 @@ export const TEAM_MEMBERS: TeamMember[] = [
     id: 1,
     name: 'Symphany',
     role: 'Aspiring Cloud Security Engineer',
-    bio: "Hi! My name is Symphany. I'm currently a senior in high school and aspire to become a Cloud Security Engineer. I've taken multiple Cybersecurity classes and plan to take more in the fall at Atlanta Technical College.",
-    longBio: "Hi! My name is Symphany. I'm currently a senior in high school and aspire to become a Cloud Security Engineer. I've taken multiple Cybersecurity classes and plan to take more in the fall at Atlanta Technical College. I'm participating in many programs to grow my knowledge for the future. So far, I've been working on many projects with The Knowledge House (TKH), such as building my own web page using CSS and HTML. I enjoy playing electric guitar, flute, and sports.",
+    bio: "Hi! My name is Symphany. I'm an upcoming senior in high school and aspire to become a Cloud Security Engineer. I'm participating in many programs to grow my knowledge for the future.",
+    longBio: "Hi! My name is Symphany. I'm an upcoming senior in high school and aspire to become a Cloud Security Engineer. I'm participating in many programs to grow my knowledge for the future. So far, I've been working on many projects with The Knowledge House (TKH), such as building my own web page using CSS and HTML. I enjoy playing electric guitar, flute, and playing sports.",
     avatar: '/symphany-avatar.jpg',
     skills: ['Cybersecurity', 'Cloud Security', 'HTML & CSS', 'The Knowledge House (TKH)'],
     interests: ['Electric Guitar', 'Flute', 'Sports'],
-    education: ['Senior in High School', 'Atlanta Technical College (Fall 2026)'],
+    education: ['Upcoming Senior in High School', 'Atlanta Technical College (Fall 2026)'],
     icon: Code,
     social: {
       github: 'https://github.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://linkedin.com',
+      tiktok: 'https://www.tiktok.com/@symkaro'
     }
   },
   {
