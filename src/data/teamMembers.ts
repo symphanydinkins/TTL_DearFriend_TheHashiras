@@ -61,7 +61,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Aspiring Aerospace Engineer',
     bio: "Hello! My Name is Cayly Knibbs! I am a 16 year old junior in high school and my goal is to become an Aerospace engineer! My hobbies include playing in orchestras as a violinist, fashion, kickboxing, photography, and coding/robotics.",
     longBio: "Hello! My Name is Cayly Knibbs! I am a 16 year old junior in high school and my goal is to become an Aerospace engineer! My hobbies are playing into a few orchestras as a violinist, fashion, Kickboxing, Photography and Coding/Robotics. As of now, I have been working outside of school to create/design a device that can monitor the electromagnetic waves from plants in order to diagnose what they may need. It's nice to meet you!",
-    avatar: '/files_10910052-2026-07-14T16-34-05-611Z-Screenshot_2026-07-14_123341 copy.png',
+    avatar: '/files_10910052-2026-07-14T16-34-05-611Z-Screenshot_2026-07-14_123341 copy copy.png',
     skills: ['Aerospace Engineering', 'Violin & Orchestra', 'Kickboxing', 'Robotics & Coding'],
     interests: ['Violin & Orchestra', 'Fashion', 'Kickboxing', 'Photography', 'Robotics'],
     education: ['Junior in High School', 'Self-taught Robotics & Coding'],
