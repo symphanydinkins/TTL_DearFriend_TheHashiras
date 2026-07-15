@@ -1,4 +1,5 @@
-import { Heart, Mail, Code, Palette, Rocket } from 'lucide-react';
+import { Heart, Mail, Code, Palette, Rocket, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import myPhoto from './20240923_071243.jpg';
 import './Team.css';
@@ -99,6 +100,9 @@ export default function Team() {
                   <Palette size={18} />
                 </a>
               </div>
+              <Link to={`/team/${member.id}`} className="view-profile-link">
+                View Profile <ArrowRight size={14} />
+              </Link>
             </div>
           </motion.div>
         ))}
