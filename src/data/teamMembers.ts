@@ -1,7 +1,7 @@
 import { Code, Palette, Rocket } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import myPhoto from '../pages/20240923_071243.jpg';
-import photo from '../public/IMG_2950';
+import photo from 'src/data/teamMembers.ts';
 
 export interface TeamMember {
   id: number;
