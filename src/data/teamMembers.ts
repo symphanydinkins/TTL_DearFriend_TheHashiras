@@ -1,8 +1,6 @@
 import { Code, Palette, Rocket } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import myPhoto from '../pages/20240923_071243.jpg';
-import IMG_2950 from '/IMG_2950.jpg';
-import caylyavatar from '/cayly-avatar.png'
 
 export interface TeamMember {
   id: number;
