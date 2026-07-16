@@ -36,7 +36,7 @@ const TEAM_MEMBERS = [
     name: 'Cayly Knibbs',
     role: 'Aspiring Aerospace Engineer',
     bio: "Hello! My Name is Cayly Knibbs! I am a 16 year old junior in high school and my goal is to become an Aerospace engineer! My hobbies are playing into a few orchestras as a violinist, fashion, Kickboxing, Photography and Coding/Robotics. As of now, I have been working outside of school to create/design a device that can monitor the electromagnetic waves from plants in order to diagnose what they may need. It's nice to meet you!",
-    avatar: '/cayly-avatar.jpg',
+    avatar: '/caylyavatar',
     skills: ['Aerospace Engineering', 'Violin & Orchestra', 'Kickboxing', 'Robotics & Coding'],
     icon: Rocket,
     social: {
