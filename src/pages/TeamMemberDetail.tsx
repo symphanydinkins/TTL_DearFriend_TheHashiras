@@ -29,7 +29,7 @@ export default function TeamMemberDetail() {
   }
 
   return (
-    <div className="member-detail-page">
+    <div className="member-detail-page" data-member-name={member.name}>
       <Link to="/team" className="back-link">
         <ArrowLeft size={18} /> Back to Team
       </Link>

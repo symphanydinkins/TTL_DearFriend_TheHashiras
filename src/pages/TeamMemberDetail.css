@@ -38,6 +38,10 @@
   position: relative;
 }
 
+.member-detail-page[data-member-name="Symphany"] .member-detail-header {
+  background: linear-gradient(135deg, #1b2824 0%, #163028 100%);
+}
+
 .member-detail-avatar-wrap {
   position: relative;
   margin-top: -60px;
@@ -73,6 +77,10 @@
   margin-bottom: 1.5rem;
 }
 
+.member-detail-page[data-member-name="Symphany"] .member-detail-role {
+  color: #1b2824;
+}
+
 .member-detail-section {
   text-align: left;
   margin-bottom: 2rem;
@@ -90,6 +98,10 @@
 
 .member-detail-section h3 .section-icon {
   color: #4ecdc4;
+}
+
+.member-detail-page[data-member-name="Symphany"] .member-detail-section h3 .section-icon {
+  color: #1b2824;
 }
 
 .member-detail-bio {
@@ -111,6 +123,10 @@
   border-radius: 12px;
   font-size: 0.8rem;
   font-weight: 500;
+}
+
+.member-detail-page[data-member-name="Symphany"] .member-detail-tag {
+  background: linear-gradient(135deg, rgba(27, 40, 36, 0.12) 0%, rgba(255, 107, 107, 0.12) 100%);
 }
 
 .member-detail-edu {
@@ -139,6 +155,10 @@
   border-radius: 50%;
   background: #4ecdc4;
   flex-shrink: 0;
+}
+
+.member-detail-page[data-member-name="Symphany"] .member-detail-edu .edu-dot {
+  background: #1b2824;
 }
 
 .member-detail-social {
