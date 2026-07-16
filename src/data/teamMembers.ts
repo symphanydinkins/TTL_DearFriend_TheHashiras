@@ -34,7 +34,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     skills: ['Cybersecurity', 'Cloud Security', 'HTML & CSS', 'The Knowledge House (TKH)'],
     interests: ['Electric Guitar', 'Flute', 'Sports'],
     education: ['Upcoming Senior in High School', 'Atlanta Technical College (Fall 2026)'],
-     cardColor: '#eee9e9',
+     cardColor: '#f7f4eb',
     icon: Code,
     social: {
       github: 'https://github.com',
