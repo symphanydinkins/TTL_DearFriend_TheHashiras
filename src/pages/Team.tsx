@@ -85,7 +85,7 @@ export default function Team() {
             </div>
             <div className="team-info">
               <h2>{member.name}</h2>
-              <span className="team-role">{member.role}</span>
+              <span className="team-role-[#1b2824]">{member.role}</span>
               <p className="team-bio">{member.bio}</p>
               <div className="team-skills">
                 {member.skills.map((skill, idx) => (
